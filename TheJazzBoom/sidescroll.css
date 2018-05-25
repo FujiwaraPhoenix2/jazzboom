@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-image: url("image_part_001.png");	
   /*background: #32aecd;*/
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: 100% 127%;
   color: #cd5132;
 }
 
@@ -25,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-image: url("image_part_002.png");	
   /*background: #7032cd;*/
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: 100% 127%;
   color: #8fcd32;
 }
 
@@ -33,7 +33,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-image: url("image_part_003.png");
   /*background: #cd3270;*/
   background-repeat: no-repeat;
-  background-size:  100% 130%;
+  background-size: 100% 127%;
   color: #32cd8f;
 }
 
@@ -41,7 +41,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-image: url("image_part_004.png");	
   /*background: #cdae32;*/
   background-repeat: no-repeat;
-  background-size:  100% 130%;
+  background-size: 100% 127%;
   color: #3251cd;
 }
 
@@ -49,7 +49,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-image: url("image_part_005.png");	
   /*background: limegreen;*/
   background-repeat: no-repeat;
-  background-size:  100% 130%;
+  background-size:  90% 127%;
   color: #cd32cd;
 }
 
@@ -63,7 +63,7 @@ body {
   position: absolute;
   transform: rotate(270deg) translateX(-100%);
   transform-origin: top left;
-  height: 206.5vh;
+  height: 220.8vh;
   width: 46.5vw;
 }
 
@@ -78,8 +78,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 105vh;
-  width: 70vw;
+  height: 94vh;
+  width: 50vw;
 }
 .page:first-of-type:before {
   color: rgba(255, 255, 255, 0.5);
@@ -134,7 +134,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	/*border-bottom: 1px solid white;*/ /*Sexy white line for header */
+	border-bottom: 1px solid white; /*Sexy white line for header */
 	z-index: 100;
 }
 
