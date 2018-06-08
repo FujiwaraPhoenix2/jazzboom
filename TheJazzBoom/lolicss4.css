@@ -39,11 +39,11 @@ body {
 
 /* Basic styles for the post it note*/
 .post-it-note {
-  width: 190px;
-  height: 190px;
-  padding: 20px;
-  font-family: Neucha, serif;
-  background-color: #e8dd62;
+ width: 230px;
+ height: 230px;
+ padding: 20px;
+ font-family: PT Sans, Regular;
+ background-color: #e8dd62;
 }
 
 /* Colour classes for the post it notes */
@@ -86,7 +86,7 @@ p {
 }
 
 .polaroid figcaption {
-  font-family: Neucha, sans-serif;
+  font-family: PT Sans, regular;
 }
 
 /* The drawing pins (can use the same colour classes above) */
