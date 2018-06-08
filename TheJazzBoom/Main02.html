@@ -7,33 +7,33 @@
     <meta name="description" content="Responsive Header Nav">
     <meta name="author" content="Waveform">
     <link rel="stylesheet" type="text/css" href="lolicss2.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script src="jukebox.js"></script>
 </head>
 
 <body>
-    <header>
-        <a href="#" id="logo">Logo</a>
-        <nav>
-            <a href="#" id="menu-icon"></a>
-            <ul>
-               <li><a href="SideScrollMainPage.html" >Hall</a></li> <!--Use current to call my css class to change color name of the header when in actual page-->
-                <li><a href="#" class="current">Jukebox</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Main04.html">Eventos</a></li>
-                <li><a href="Main05.html">Galeria</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+	<nav style="width: 100%;">
+    <a href="index.html" id="menu-icon">
+	<img src="ativo_1.png" class="logoBoom"></a>
+    <ul>
+      <li><a href="SideScrollMainPage.html" >Hall</a></li> <!--Use current to call my css class to change color name of the header when in actual page-->
+      <li><a href="Main02.html">Jukebox</a></li>
+      <li><a href="Main04.html">Eventos</a></li>
+      <li><a href="Main05.html">Galeria</a></li>
+    </ul>
+  </nav>
+</header>
 
     <section>
-        <h1>Jukebox Player</h1>
         <div class="jukeBox">
             <div class="jukeBoxTop">
                 <canvas id="box">
     </canvas>
 
             </div>
-            <div class="jukeBoxBottom">
+            <div class="jukeBoxBottom" style="margin-top:14%">
                 <div class="pattern">
                 </div>
             </div>
@@ -41,9 +41,14 @@
         <!-- If you open divs above the section and remove h1 it'll split the page in two sides, then you can just create a class with it to positions stuff properly -->
 		<!-- Also you can pretty much keep adding more playlist by opening more soundclouds iframe in the same div of your playlist -->
 		<!-- Here below i'll put the second style where u can do using the entire album image if it's highquality and a full image it looks really good ;3 -->
-		<!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331697807&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe> -->
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331697807&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-    </section>
+		<iframe width="250%" height="145" scrolling="no" frameborder="no"  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331697807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		<br>
+		<iframe width="250%" height="145" scrolling="no" frameborder="no"  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/451849131&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		<br>
+		<iframe width="250%" height="145" scrolling="no" frameborder="no"  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21666296&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		</section>
+
+		
 </body>
 
 

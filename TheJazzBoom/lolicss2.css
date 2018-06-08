@@ -11,60 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/*Do My Jukebox */
-.jukeBox {
-  width: 150px;
-  height: 300px;
-  margin-top: 20%;
-  margin: auto;
-}
 
-.jukeBoxTop {
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  background-color: black;
-  width: 150px;
-  height: 100px;
-  margin-top: 20px;
-  margin: auto;
-  display:flex;
-  justify-content:center;
-  align-items: center;
-  box-shadow: 0 0 10px 1px white;
-}
-
-#box {
-  height: 30px;
-  width: 100px;
-  background-color: #99fff1;
-  box-shadow: 0 0 10px 1px #00ffff;
-}
-
-.jukeBoxBottom {
-  background-color: black;
-  width: 150px;
-  height: 180px;
-  margin-top: 20px;
-  box-shadow: 0 0 10px 1px white;
-  margin: auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.pattern {
-  height: 150px;
-  width: 100px;
-  box-shadow: 0 0 10px 1px white;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAV0lEQVQYV2NkYGD4D8RwwPrnOpj9m0UTWZiBEVkhSBFMATIbpAOuEF0CJIksBlaITRHMXpgcI5DxH909KI6Dmky8QqKthvmaKM+gOxzdxyjBg6wYW4ADAAo0PbEe9YCZAAAAAElFTkSuQmCC") repeat;
-  margin: auto;
-  margin-top: 15px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-/* Do My Radio */
 
 
 /*MAIN*/
@@ -80,12 +27,10 @@ h1 {
   -webkit-background-clip: text;
 }
 
-@keyframes Animacao { 
-  0%{background-position:0% 0%}
-  30%{background-position:99% 0%}
-  50%{background-position:0% 0%}
-  70%{background-position:99% 0%}
-  100%{background-position:0% 0%}
+br {
+   display: block;
+   margin: 100px ;
+   top:10px;
 }
 
 a {
@@ -95,25 +40,35 @@ a {
 }
 
 a:hover {
-	color: #86E88F;
+	color: #df6100;
+}
+.logoBoom {
+   width: 4em;
+   height: 5%;
+   float: left;
+   left:3%;
+   position: relative;
+   margin-top: -0.8%;
 }
 
 header {
-	font-family: quicksand;
+	font-family: 'Bitter', serif;
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
-	background: #1a1f28;
+	background: #03131b;
 	width: 100%;
 	height: 76px;
 	position: fixed;
 	top: 0;
-	left: 0;
-	border-bottom: 1px solid white; /*Sexy white line for header */
+	left: 0%;
 	z-index: 100;
 }
 
 body {
+	background-image: url("jukebox_com_luz.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
 	background-color: #1a1f28;
 	display: flex;
     align-items: center;
@@ -144,6 +99,8 @@ a:hover#menu-icon {
 
 ul {
 	list-style: none;
+	float:right;
+	padding-right:2%;
 }
 
 li {
@@ -153,11 +110,11 @@ li {
 }
 
 .current {
-	color: #61a867;
+	color: #f5b958;
 }
 
 section {
-	margin: 80px auto 40px;
+	top: -30px;
 	max-width: 980px;
 	position: relative;
 	padding: 20px
