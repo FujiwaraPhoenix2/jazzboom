@@ -174,11 +174,12 @@ p {
 	color: yellow;
   }
    .logoBoom {
-	width: 2em;
-	height: 60%;
+	width: 10%;
+	height: 80%;
 	width: 15%;
     position: absolute;
 	right: 25%;
+	padding: 1px 1px;
 }
    #menu-icon {
     float: right;
