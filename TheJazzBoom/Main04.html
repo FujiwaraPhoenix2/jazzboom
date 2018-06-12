@@ -6,17 +6,32 @@
 <title>The Jazz Boom</title>
 <meta name="description" content="Responsive Header Nav">
 <meta name="author" content="Waveform">
-<link rel="stylesheet" type="text/css" href="lolicss4.css">
+<link rel="stylesheet" type="text/css" href="Main04.css">
 <script src="home.js"></script> 
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#test").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div#mostre").removeClass("escondido")
+    });
+});
+
+</script>
 </head>
 
 <body>
 <header>
 	<nav style="width: 100%;">
     <a href="index.html" id="menu-icon">
-	<img src="ativo_1.png" class="logoBoom"></a>
+	<img src="img/whitelogo.png" class="logoBoom"></a>
     <ul>
       <li><a href="SideScrollMainPage.html" >Hall</a></li> <!--Use current to call my css class to change color name of the header when in actual page-->
       <li><a href="Main02.html">Jukebox</a></li>
@@ -39,13 +54,27 @@
 	  
 	  <h1 style="text-decoration: underline;">
       Inscreva-se agora!<br></h1>
+	  <br>
+	  <div id="mostre" class="escondido">
+	  <h1 style="font-size:30px; margin-top:20%;">Obrigado! </h1>
+	  </div>
+	  <div id="test">
+		Seu nome:<br>
+		<input style="width:90%" type="text" name="firstname" placeholder="Louis Armstrong">
+		<br>
+		<br>
+		Seu e-mail:<br>
+		<input style="width:90%"  type="text" name="email" placeholder="exemplo@hotmail.com">
+		<br><br>
+		<button style="margin-left:36%">Submit</button>
+	  </div>
     </div><!-- Post it Note #2 -->
 
     <div class="post-it-note red" id="note-2">
       <div class="pin yellow"></div>
 
       <h1><br>
-      Transforme tudo em uma festa!
+      Uma grande festa!
       <br></h1>
 
       <p>Aqui vôce estara em dia com as mais novas noticias!</p>

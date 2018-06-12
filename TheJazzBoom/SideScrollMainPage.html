@@ -9,17 +9,20 @@
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="sidescroll.css">
-<script src="home6.js"></script> 
+<script src="js/home6.js"></script> 
 </head>
 
 <body>
-  <audio autoplay loop>
-   <source src="La_Vie_En_Rose-Louis_Armstrong-salão.mp3" type="audio/mpeg">
-  </audio>
+
 <header>
+  <audio autoplay loop>
+   <source src="audio/La_Vie_En_Rose-Louis_Armstrong-salão.ogg" type="audio/ogg">
+   <source src="audio/La_Vie_En_Rose-Louis_Armstrong-salão.mp3" type="audio/mpeg">
+   Your browser does not support the audio element.
+  </audio>
 	<nav style="width: 100%;">
     <a href="index.html" id="menu-icon">
-	<img src="ativo_1.png" class="logoBoom"></a>
+	<img src="img/whitelogo.png" class="logoBoom"></a>
     <ul>
       <li><a href="#" class="current" >Hall</a></li> <!--Use current to call my css class to change color name of the header when in actual page-->
       <li><a href="Main02.html">Jukebox</a></li>
@@ -35,11 +38,12 @@
     <div class="grid">
         <div class="page">
 		    <div class="distribution-map">
-			    <button class="map-point" style="top:145%;left:28%">
+			    <button class="map-point" style="top:145%;left:33%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2 style="text-align:center;">Barman</h2>
+					  <br>
+                       <p style="line-height:20px;text-align:left; padding-left:10px;">Olá estranho, deseja uma bebida? Você deve estar se perguntando onde está. Estamos em um "Speakeasy", um bla bla</p>
                     </div>
                   </div>
                 </button>
@@ -50,7 +54,7 @@
 			    <button class="map-point" style="top:10%;left: 19.5%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
+                      <h2>Saxofone</h2>
                        <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
                     </div>
                   </div>
@@ -58,15 +62,15 @@
 				<button class="map-point" style="top:-5%;left: 46.5%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
+                      <h2>Violão</h2>
                        <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
                     </div>
                   </div>
                 </button>
-				<button class="map-point" style="top:-500%;left: 29%">
+				<button class="map-point" style="top:-410%;left: 29%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
+                      <h2>Trompete</h2>
                        <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
                     </div>
                   </div>
@@ -78,24 +82,24 @@
 			  <button class="map-point" style="top:80%;left: 9.5%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2>Adelaide Hall</h2>
+                       <p>Oi, tudo bem? Meu nome é Adelaide Hall e sou uma cantora de Jazz. Eu fui pioneira na técnica vocal "scat", e sou conhecida por minhas canções como Creolle Love Call e Rhapsody of Love.</p>
                     </div>
                   </div>
                 </button>
 				<button class="map-point" style="top:20%;left: 38.5%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2>Louis Armstrong</h2>
+                       <p>Olá! Eu sou Louis Armstrong, dizem que sou a própria personificação do Jazz! Sou cantor e instrumentista, fiquei muito conhecido por meus solos de trompetes e canções como What a wonderful world!</p>
                     </div>
                   </div>
                 </button>
 				<button class="map-point" style="top:100%;left: 67.5%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2>Ella Fitzgerald</h2>
+                       <p>Olá! Me chamo Ella Fitzgerald, sou atriz, cantora e compositora, mais conhecida como a “primeira-dama do Jazz”! Fui vencedora de 14 grammys, minha voz é capaz de abranger 3 oitavas e sou muito boa com improvisos.</p>
                     </div>
                   </div>
                 </button>
@@ -106,8 +110,8 @@
 			  <button class="map-point" style="top:150%;left:-4%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2>Billie Holiday</h2>
+                       <p>Eu sou Billie Holiday. Eu recebi o título de Lady Day pelo meu talento com Jazz. Minha música Strange Fruit fala sobre racismo e segregação.</p>
                     </div>
                   </div>
                 </button>
@@ -115,11 +119,11 @@
 		</div>
         <div class="page">
 		<div class="distribution-map">
-			  <button class="map-point" style="top:-190%;left:33%">
+			  <button class="map-point" style="top:-150%;left:31%">
                   <div class="content">
                     <div class="centered-y">
-                      <h2>A Place</h2>
-                       <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                      <h2>Cantor</h2>
+                       <p>Hey, e ai? Eu sou o cantor desta banda de Jazz.</p>
                     </div>
                   </div>
                 </button>

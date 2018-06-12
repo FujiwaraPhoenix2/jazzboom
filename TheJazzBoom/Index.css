@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+/* FONTS */
+
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Quicksand Regular"), local("Quicksand-Regular"), url(https://fonts.gstatic.com/s/quicksand/v7/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/*MAIN*/
+@keyframes Animacao { 
+  0%{background-position:0% 0%}
+  30%{background-position:99% 0%}
+  50%{background-position:0% 0%}
+  70%{background-position:99% 0%}
+  100%{background-position:0% 0%}
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #df6100;
+}
+
+
+.logoBoom {
+   width: 4em;
+   height: 5%;
+   float: left;
+   left:3%;
+   position: relative;
+   margin-top: -0.8%;
+}
+
+header {
+	font-family: 'Bitter', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+	background: #03131b;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0%;
+	z-index: 100;
+}
+
+body {
+	background-color: #03131b;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+	margin: 30px;
+	float: left;
+}
+
+nav {
+	float: right;
+	padding: 20px;	
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url("https://f.cl.ly/items/1U2c3b1215383h3a2T2r/icon-menu.svg") center;
+}
+
+a:hover#menu-icon {
+	background-color: #86E88F;
+	/* border-radius: 1px 1px 0 0; */
+}
+
+ul {
+	list-style: none;
+	float:right;
+	padding-right:2%;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+
+.current {
+	color: #f5b958;
+}
+
+section {
+	margin: 80px auto 40px;
+	max-width: 980px;
+	position: relative;
+	padding: 20px
+}
+
+h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+li, #logo {
+  font-size: 20px;
+}
+
+
+p {
+	line-height: 1.45em;
+	margin-bottom: 20px;
+}
+
+
+
+/*Pulse*/
+#holder {
+	margin: 50px auto;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+  right: 80px;
+  top:-20px;
+
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+		float: right;
+	}
+
+	#menu-icon {
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #85E88D;
+		right: 00px;
+		top: 75px;
+		width: 50%;
+
+	}
+
+	nav li {
+		text-align: right;
+		width: 100%;
+		padding: 15px 0px;
+		margin: 0;
+	}
+
+	nav:hover ul block;
+	}{
+		display: 
+  
+  a:hover {
+	color: yellow;
+  }
+   .logoBoom {
+	width: 10%;
+	height: 80%;
+	width: 15%;
+    position: absolute;
+	right: 25%;
+	padding: 1px 1px;
+}
+   #menu-icon {
+    float: right;
+	display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url("https://f.cl.ly/items/1U2c3b1215383h3a2T2r/icon-menu.svg") center;
+    }
+    a:hover#menu-icon {
+    background-color: #86E88F;
+    /* border-radius: 1px 1px 0 0; */
+    }
