@@ -142,6 +142,10 @@ p {
 	header {
 		float: right;
 	}
+	
+	.imgs{
+		padding-left:30%;
+	}
 
 	#menu-icon {
 		display:inline-block;

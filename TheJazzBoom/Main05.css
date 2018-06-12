@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background-image: url("img/corkboard ver2.png");
+	background-image: url("img/corkboard.png");
 	background-repeat: no-repeat;		
-  height: 122%;
+  height: 90%;
   padding: 20px;
   margin: 0;
   background-color: #e9e9e9;
@@ -58,7 +58,7 @@ body {
 }
 
 .blue {
-  background-color: #0c2735;
+  background-color: #DA9315;
 }
 
 /* Font styling for headings and text inside the post it notes */
@@ -113,17 +113,23 @@ p {
             See the difference in the layer order?
         */
 #picture-5 {
-  top: 36%;
-  left: 67%;
+  top: 30%;
+  left: 36%;
+    -ms-transform: rotate(2deg);
+/* Make it work in IE 9 */
+  -webkit-transform: rotate(2deg);
+/* Make it work in Safari and Chrome */
+width:28%;
+height:47%;
 }
 
 #picture-4 {
-  top: 68%;
-  right: 36%;
-  transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
+  top: 20%;
+  right: 11%;
+  transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
 /* Make it work in IE 9 */
-  -webkit-transform: rotate(2deg);
+  -webkit-transform: rotate(-2deg);
 /* Make it work in Safari and Chrome */
 }
 
@@ -133,8 +139,8 @@ p {
             #note-3 is the id on the blue poloaroid.  You can see that its positions 10% off the bottom and 16% from the left. The 10% and 16% are refering the the width and height of the container #note-3 sites in which is the .wrapper (cork board). So of you wanted to move the post it note closer to the left try reducing the left % to say 10%.
         */
 #picture-3 {
-  bottom: 27%;
-  left: 25%;
+  bottom: 50%;
+  left: 13%;
   transform: rotate(2deg);
   -ms-transform: rotate(2deg);
 /* Make it work in IE 9 */
@@ -143,8 +149,8 @@ p {
 }
 
 #picture-1 {
-  left: 13%;
-  top: 82%;
+  left: 12%;
+  top: 63%;
   transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
 /* Make it work in IE 9 */
@@ -157,12 +163,12 @@ p {
             If you notice some of the items on the corkbord a rotated slightly. The transform css property is doing this (we've added some browser specific rotations as well to make sure you see it woking in more browsers). Try changing the values of the rotation to see the effect on the corkboard.
         */
 #picture-2 {
-  bottom: -8%;
+  bottom: 10%;
   right: 11%;
-  transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
+  transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
 /* Make it work in IE 9 */
-  -webkit-transform: rotate(3deg);
+  -webkit-transform: rotate(2deg);
 /* Make it work in Safari and Chrome */
 }
 

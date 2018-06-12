@@ -10,6 +10,21 @@
 <script src="home.js"></script> 
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#test").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div#mostre").removeClass("escondido")
+    });
+});
+
+</script>
 </head>
 
 <body>
@@ -39,16 +54,30 @@
 	  
 	  <h1 style="text-decoration: underline;">
       Inscreva-se agora!<br></h1>
+	  <br>
+	  <div id="mostre" class="escondido">
+	  <h1 style="font-size:30px; margin-top:20%;">Obrigado! </h1>
+	  </div>
+	  <div id="test">
+		Seu nome:<br>
+		<input style="width:90%" type="text" name="firstname" placeholder="Louis Armstrong">
+		<br>
+		<br>
+		Seu e-mail:<br>
+		<input style="width:90%"  type="text" name="email" placeholder="exemplo@hotmail.com">
+		<br><br>
+		<button style="margin-left:36%">Submit</button>
+	  </div>
     </div><!-- Post it Note #2 -->
 
     <div class="post-it-note red" id="note-2">
       <div class="pin yellow"></div>
 
       <h1><br>
-      Transforme tudo em uma festa!
+      Uma grande festa!
       <br></h1>
 
-      <p>Aqui vôce estara em dia com as mais novas noticias!</p>
+      <p>Com notícias novas e frescas!</p>
     </div><!-- Post it Note #3 -->
 
     <div class="post-it-note blue" id="note-3">
@@ -61,18 +90,18 @@
     </div><!-- Polaroid #1 -->
 
     <figure class="polaroid" id="picture-1">
-      <div class="pin red"></div><img alt="My Holiday"  src="http://weirdfictionreview.com/wp-content/uploads/2012/05/bar.jpg">
+      <div class="pin red"></div><img alt="My Holiday"  src="img/eventos1.png">
 
-      <figcaption>
-        --&gt; Junte-se a nós!
+      <figcaption style="text-align:center;">
+       Junte-se a nós!
       </figcaption>
     </figure><!-- Polaroid #2 -->
 
     <figure class="polaroid" id="picture-2">
-      <div class="pin blue"></div><img alt="Speakeasy" src="http://www.freightandsalvage.org/sites/default/files/150122_a.jpg">
+      <div class="pin blue"></div><img alt="Speakeasy" src="img/eventos2.png">
 
-      <figcaption>
-        Aqui estamos nós!
+      <figcaption style="text-align:center;">
+        Estamos ao vivo!
       </figcaption>
     </figure>
   </div>
